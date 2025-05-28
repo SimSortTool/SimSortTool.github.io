@@ -1,7 +1,6 @@
 ---
-
-## layout: default
-
+layout: default
+---
 <img src="./logo.png" width="300" alt="logo">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Source_Code-blue?logo=github)](https://github.com/SimSortTool/SimSort-Tetrode)
