@@ -9,7 +9,7 @@ layout: default
 
 **SimSort** is a deep learning–based framework for spike sorting, pre-trained with large-scale biologically realistic simulations of extracellular recordings.
 
-Currently, SimSort supports tetrode (4-channel) recordings. SimSort 2.0for Neuropixels is under development!
+Currently, SimSort supports tetrode (4-channel) recordings. SimSort 2.0 for Neuropixels is on the way!
 
 ---
 
@@ -102,9 +102,9 @@ sorting.run()
 
 SimSort's sorting pipeline includes:
 
-* **Data Preprocessing**: filtering, normalizing, whitening.
-* **Spike Detection**: using a pre-trained detection model.
-* **Spike Identification**: feature extraction and clustering with a pre-trained identification model.
+- Data Preprocessing: Filtering, normalizing and whitening the data.
+- Spike Detection: Identifies spike events using a pre-trained model.
+- Spike Identification: Extracts latent features of waveforms using a pre-trained model, reduces dimensionality, and clusters spikes into neuronal units.
 
 ---
 
